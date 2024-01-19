@@ -227,6 +227,28 @@ a:hover{
     width: 50%;
     color: white;
 }
+
+/* footer */
+footer{
+    /* margin-top: 50px; */
+    font-size: 15px;
+    padding: 50px;
+    color: white;
+    backdrop-filter: blur(1px);
+    border-top: solid 1px rgb(86, 80, 80);
+    transform: translateY(-3px);
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.social-icons{
+    text-align: center;
+}
+i{
+    margin: 5px;
+}
+
 /* responsive  */
 
 @media screen and (max-width: 1042px) {
