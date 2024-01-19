@@ -237,16 +237,19 @@ footer{
     backdrop-filter: blur(1px);
     border-top: solid 1px rgb(86, 80, 80);
     transform: translateY(-3px);
+    text-shadow: 0 0 7px rgb(0, 0, 0);
 }
 .footer{
     display: flex;
     justify-content: space-around;
+    text-shadow: 0 0 7px rgb(0, 0, 0);
 }
 .social-icons{
     text-align: center;
+    text-shadow: 0 0 7px rgb(0, 0, 0);
 }
 i{
-    margin: 5px;
+    margin: 5px  ;
 }
 
 /* responsive  */
