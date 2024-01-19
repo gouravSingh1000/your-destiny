@@ -68,7 +68,7 @@ hr{
     padding-top: 10px;
     border-radius: 10px;
     margin: 20px 20px;
-    height: 450px;
+    height: 480px;
     text-transform: uppercase;
     transition: transform 0.4s;
     font-family: 'Bebas Neue', sans-serif;
@@ -116,12 +116,12 @@ hr{
 }
 @media  screen and (max-width: 798px ) {
     .nav-container{
-        height: 550px;
+        height: 580px;
     }
 }
 @media  screen and (max-width: 671px ) {
     .nav-container{
-        height: 600px;
+        height: 630px;
     }
 }
 @media screen and (max-width: 555px) {
@@ -130,17 +130,17 @@ hr{
         flex-direction: column;
     }
     .nav-container{
-        height: 850px;
+        height: 880px;
     };
 }
 @media  screen and (max-width:419px) {
 .nav-container{
-    height: 900px;
+    height: 930px;
 }
 }
 @media screen and (max-width: 360px) {
     .nav-container{
-        height: 980px;
+        height: 1010px;
         backdrop-filter: blur(1px);
         position: relative;
         bottom: 3px;
@@ -270,4 +270,29 @@ p{
     .center > .p-item{
         margin: 20px;
     }
+}
+
+/* footer*/
+
+footer{
+    /* margin-top: 50px; */
+    font-size: 15px;
+    padding: 50px;
+    color: white;
+    backdrop-filter: blur(1px);
+    border-top: solid 1px rgb(86, 80, 80);
+    transform: translateY(-3px);
+    text-shadow: 0 0 7px rgb(0, 0, 0);
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    text-shadow: 0 0 7px rgb(0, 0, 0);
+}
+.social-icons{
+    text-align: center;
+    text-shadow: 0 0 7px rgb(0, 0, 0);
+}
+i{
+    margin: 5px  ;
 }
