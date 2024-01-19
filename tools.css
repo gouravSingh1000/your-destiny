@@ -302,9 +302,4 @@ i{
         flex-direction: column;
         text-align: center;
     }
-    p{
-        text-align: center;
-        margin-left: 0;
-        margin-right: 0;
-    }
 }
